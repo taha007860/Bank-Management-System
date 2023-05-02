@@ -1,6 +1,6 @@
 # Bank Management System Database
 
-**Authors:** Adam Harb, Mohamad Zaatari, Joe Hage, Ahmad Bero
+**Authors:** Adam Harb, Mohamad Zaatari, Joe Hage
 
 **Course:** CMPS244, American University in Beirut
 
