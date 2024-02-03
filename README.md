@@ -1,8 +1,6 @@
 # Bank Management System Database
 
-**Authors:** Adam Harb, Mohamad Zaatari, Joe Hage
-
-**Course:** CMPS244, American University in Beirut
+**Course:** CMPS 244, American University of Beirut
 
 ## Abstract
 
@@ -57,3 +55,6 @@ To use this database, you will first need to set up a PostgreSQL server. Once yo
 ## Contributions
 
 If you would like to contribute to this project, please fork the repository and create a new branch for your changes. Once you have made your changes, submit a pull request and we will review your changes and merge them into the main branch if they are accepted.
+
+## EER Model
+![EER Model](EER Model.png)
