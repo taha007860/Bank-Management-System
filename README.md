@@ -50,7 +50,7 @@ The following indexes have been created in order to optimize the performance of 
 
 ## Usage
 
-To use this database, you will first need to set up a PostgreSQL server. Once you have done so, you can create a new database and import the schema and data from the provided SQL files. After that, you can use a variety of SQL queries to interact with the database and retrieve the information you need.
+To use this database, you will first need to set up MySQL. Once you have done so, you can create a new database and import the schema and data from the provided SQL files. After that, you can use a variety of SQL queries to interact with the database and retrieve the information you need.
 
 ## Contributions
 
