@@ -22,10 +22,10 @@ Our database will consist of the following tables and their respective attribute
 - Transaction(Transaction_ID integer (primary key), Transaction_Type varchar(255), Amount float, Date date, Account_Num integer (foreign key references Account.Account_Num))
 - Branch(Branch_ID integer (primary key), Branch_Name varchar(255), Address varchar(255), PhoneNum integer)
 - Loan(Loan_ID integer (primary key), CustomerID integer (foreign key references Customer.Customer_ID))
-- Transaction_Branch(Transaction_ID integer (foreign key references Transaction.Transaction_ID), Branch_ID integer (foreign key references  Branch\.Branch\_ID))
+- Transaction_Branch(Transaction_ID integer (foreign key references Transaction.Transaction_ID), Branch_ID integer (foreign key references  <pre>Branch\.Branch\_ID</pre>))
 - Head_Bank_Employee(Employee_ID integer (foreign key references Employee.Employee_ID), Bank_Code integer (foreign key references Bank.Bank_Code))
-- Branch_Employee(Branch_ID integer (foreign key references Branch\.Branch\_ID), Employee_ID integer (foreign key references Employee.Employee_ID))
-- Branch_Manager(EmployeeID integer (foreign key references Employee.Employee_ID), Branch_ID integer (foreign key references Branch\.Branch\_ID), Branch_Manager varchar(255))
+- Branch_Employee(Branch_ID integer (foreign key references <pre>Branch\.Branch\_ID</pre>), Employee_ID integer (foreign key references Employee.Employee_ID))
+- Branch_Manager(EmployeeID integer (foreign key references Employee.Employee_ID), Branch_ID integer (foreign key references <pre>Branch\.Branch\_ID</pre>), Branch_Manager varchar(255))
 
 ## Views
 
@@ -40,12 +40,12 @@ In addition to the tables, the following views have been created to provide a mo
 The following indexes have been created in order to optimize the performance of the database:
 
 - Index on Employee.Employee_ID
-- Index on Dependent\.Dependent\_ID
+- Index on <pre>Dependent\.Dependent\_ID</pre>
 - Index on Customer.Customer_ID
 - Index on Bank.Bank_Code
 - Index on Account.Account_Num
 - Index on Transaction.Transaction_ID
-- Index on Branch\.Branch\_ID
+- Index on <pre>Branch\.Branch\_ID</pre>
 - Index on Loan.Loan_ID
 
 ## Usage
